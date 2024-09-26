@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Saga do cachorro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p> Certo dia, um cachorrinho de nome e dono desconhecidos, se perdeu. Uma garotinha o encontrou e decidiu levá-lo para seu dono.</p>
+            <button class="btn-proximo" data-proximo="1">Parque Paraíso</button>
+            <button class="btn-proximo" data-proximo="2">Centro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A garotinha vai para a Padaria Maximino procurar pistas sobre o dono.</p>
+            <button class="btn-proximo" data-proximo="3">Peguntar se alguém conhece o cachorro</button>
+            <button class="btn-proximo" data-proximo="4">Levar o cachorro para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A garotinha segue até a UBS para pedir ajuda.</p>
+            <button class="btn-proximo" data-proximo="5">Falar com a atendente brava da UBS</button>
+            <button class="btn-proximo" data-proximo="6">Pedir para colar um cartaz informando que o cachorro  foi encontrado</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ninguém sabe quem é o dono, mas indicam a veterinária da rua de cima para ver se ela sabe.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Veterinária</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>A garotinha decide levar o cachorro para casa e ficar com ele.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A atendente pede para você levar ao veterinário, que é a pessoa mais indicada para a situação.</p>
+            <button class="btn-proximo" data-proximo="7">Ir até o veterinário</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ela decide colar cartazes pela cidade.</p>
+            <button class="btn-proximo" data-proximo="8">Passar pelas lojas do Centro</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A veterinária coloca no grupo de amigos  pet e dá biscoitos caninos.</p>
+            <button class="btn-proximo" data-proximo="9">Ir até a casa de Ração</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>A garotinha espalhou cartazes pelo bairro.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Parque Paraiso</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Encontrou uma ração adequada para o cachorro.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Em casa, percebe que o cachorro está faminto e não tem ração</p>
+            <button class="btn-proximo" data-proximo="12">Ir para casa de Ração</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Em casa, a garotinha alimentou e brincou com o cachorro.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ela encontrou a ração adequada para o cachorro.</p>
+            <button class="btn-proximo" data-proximo="11">Voltar para casa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
